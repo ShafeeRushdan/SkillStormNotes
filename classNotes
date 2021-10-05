@@ -1,0 +1,25 @@
+JAVA
+
+CLASSES are blueprints used to define objects
+- Classes can be real world objects
+-Also can be application components
+
+CLASS MEMBERS are the things inside of a CLASS
+
+CLASS MEMBERS include:
+
+- Variables (state)
+- Methods (behavior)
+- Constructors (initialization)
+
+class Vehicle { //CLASS BODY
+  int speed; //VARIABLE
+  
+  void accelerate () { //METHOD BODY
+  
+  }
+  
+  Vehicle() {
+    speed = 0; //CONSTRUCTOR
+  }
+}
