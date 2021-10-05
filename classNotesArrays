@@ -1,0 +1,15 @@
+package hello;
+
+public class Array {
+	
+	public static void main(String[] args) {
+		
+		int[] array = new int[6]; //LENGHT
+		array[0] = 155; 
+		array[5] = 77; //ALWAYS ONE LESS THAN LENGTH
+		System.out.print(array[5]);
+		
+	}
+
+}
+
